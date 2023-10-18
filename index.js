@@ -1,0 +1,1 @@
+document.onload = document.getElementById('home-bar-link').focus();

@@ -1,0 +1,1 @@
+document.onload = document.getElementById('tool-bar-link').focus();

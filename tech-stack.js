@@ -1,0 +1,1 @@
+document.onload = document.getElementById('tech-bar-link').focus();
