@@ -23,12 +23,16 @@ a:visited {
     color: gray;
 }
 
-ul {
+#navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333333;
+}
+
+#skill-list {
+    list-style-type: square;
 }
   
 #bar {

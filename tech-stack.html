@@ -7,7 +7,7 @@
   </head>
   <body>
     <h1>Welcome to My Github Landing Page</h1>
-    <ul>
+    <ul id="navbar">
       <li id="bar"><a href="index.html">Home</a></li>
       <li id="bar"><a href="">Tech-Stack</a></li>
       <li id="bar"><a href="tool-stack.html">Tool-Stack</a></li>
@@ -20,7 +20,7 @@
         <th>Subtopic</th>
       </tr>
       <tr>
-        <td rowspan="3">Networking</td>
+        <td rowspan="4">Networking</td>
         <td rowspan="2">BGP</td>
         <td>
           <span>RPKI (ROA, ASPA)</span>
@@ -41,6 +41,13 @@
         </td>
       </tr>
       <tr>
+        <td>Observability</td>
+        <td>
+          <span>Netflow/IPFIX</span>
+          <span id="skill">Professional</span>
+        </td>
+      </tr>
+      <tr>
         <td rowspan="2">Distributed Systems</td>
         <td>Pub-Sub Systems</td>
         <td>
@@ -56,6 +63,13 @@
         </td>
       </tr>
     </table>
+    <p>Skill-level hierarchy (self assigned so i can push myself more on these fields/techs)</p>
+    <ul id="skill-list">
+      <li>Elite: Dominate the tech/field and contribute to the its specification/implementation (e.g. RFCs, relevant articles or leading opensource initiatives)</li>
+      <li>Expert: Have extensive knowledge of the tech/field and deployed state of the art systems</li>
+      <li>Professional: Understand the tech/field capabilities, pros and cons, and deployed some kind of production grade system</li>
+      <li>Experienced: Have a basic notion of the tech/field, and tested it using some prototype</li>
+    </ul>
     <script type="text/javascript" src="tech-stack.js"></script>
   </body>
 </html>
